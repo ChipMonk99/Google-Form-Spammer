@@ -1,1 +1,42 @@
+var inputs = document.querySelectorAll('input');
+inputs.forEach(function(inputElement){
+	if(inputElement.name == 'entry.1190995157'){
+		this.value = 'YES';
+		var checker = document.querySelector('div.quantumWizTogglePaperradioEl');
+		checker['aria-checked'] = 'true';
+		checker.classList.toggle('isChecked');
+		checker.tabindex = '-1';
+	}
+	
+})
 
+inputs[0].value = 'test';
+inputs[0].placeholder = '';
+inputs[1].value = 'test';
+inputs[1].placeholder = '';
+inputs[2].value = 'test';
+inputs[2].placeholder = '';
+
+
+var checkBox = document.querySelectorAll('div.freebirdFormviewerViewItemsItemItem input');
+
+checkBox.forEach(function(option){
+	if(option.name == 'entry.1037555132'){
+		option.value = 'MATHEMATICS';
+	}
+	if(option.name == 'entry.1640943332'){
+		option.value = '11th & 12th';
+	}
+	if(option.name == 'entry.794924102'){
+		option.value = 'PALASIA';
+	}
+})
+
+if(inputElement.name == 'entry.1045781291'){
+		inputElement['data-initial-value'] = 'test@gmail.com';
+		this.value = 'test@gmail.com';
+	}
+	if(inputElement.name == 'entry.1166974658'){
+		inputElement['data-initial-value'] = '9876543210';
+		this.value = '9876543210';
+	}
